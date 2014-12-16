@@ -3,7 +3,7 @@ logging
 
 ## Create custome logging filter
 
-        import logging
+    import logging
 
 	class CustomQueryFilter(logging.Filter):
 		def filter(self, record):
