@@ -3,7 +3,6 @@ logging
 
 ## Create custome logging filter
 
-	`
         import logging
 
 	class CustomQueryFilter(logging.Filter):
@@ -19,4 +18,3 @@ logging
 	'filters': {
 	'db_query_filter': {
 	'()': CustomQueryFilter,
-	`
