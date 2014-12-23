@@ -1,8 +1,6 @@
 json_handler
 ==========
 
-# Using for Django-Ajax json response
-
 ##  Example
 ####Encode queryset  to json and return json response 
 
