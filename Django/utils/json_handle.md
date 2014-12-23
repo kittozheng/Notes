@@ -22,7 +22,7 @@
 ##	encoder for  queryset
 
 
-	```python
+	```
 	'''
 	The main issues with django's default json serializer is that properties that
 	had been added to a object dynamically are being ignored (and it also has 
