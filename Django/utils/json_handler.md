@@ -1,14 +1,17 @@
+json_handler
+===
+
 # Using for Django-Ajax json response
 
 ##  Example
 ####Encode queryset  to json and return json response 
 
-    ```python
-    all_users = json_encode(all_users.values('id', 'name')) \
-                if all_users.exists() else None
+```python
+all_users = json_encode(all_users.values('id', 'name')) \
+            if all_users.exists() else None
 
-    return render_json(dict(state = True, all_users = all_users))
-    ```
+return render_json(dict(state = True, all_users = all_users))
+```
 
 ####render_json for handling dict data
 	
@@ -20,7 +23,6 @@ def render_json(data):
 ```
 
 ##	encoder for  queryset
-
 
 ```python
 ''''
