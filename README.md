@@ -1,5 +1,8 @@
 #Codes
 
+### Description
+Collections of useful code, including Django.....
+
 ##[Django](https://github.com/kittozheng/Codes/tree/master/Django)
 
 ###[logging](https://github.com/kittozheng/Codes/tree/master/Django/logging)
