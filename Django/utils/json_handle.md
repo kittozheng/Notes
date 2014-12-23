@@ -1,14 +1,14 @@
 # Using for Django-Ajax json response
 
 ##  Example
-## 	Encode queryset  to json and return json response 
+####Encode queryset  to json and return json response 
 	
     all_users = json_encode(all_users.values('id', 'name')) \
                 if all_users.exists() else None
 
     return render_json(dict(state = True, all_users = all_users))
 
-##	render_json for handling dict data
+####render_json for handling dict data
 
 	from django.http import HttpResponse
 	from django.utils import simplejson
@@ -16,9 +16,9 @@
 		return HttpResponse(simplejson.dumps(data, ensure_ascii=False))
 
 ##	encoder for  queryset
-##	The main issues with django's default json serializer is that properties that
-##	had been added to a object dynamically are being ignored (and it also has 
-##	problems with some models).
+    The main issues with django's default json serializer is that properties that
+    had been added to a object dynamically are being ignored (and it also has 
+    problems with some models).
 
 	from decimal import Decimal
 	from datetime import *
