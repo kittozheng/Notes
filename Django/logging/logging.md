@@ -72,7 +72,7 @@ class Bar(object):
         self.logger.info('Hi, bar')
 ```
 
-*but shouldn't be like this:
+* but shouldn't be like this:
 
 ```python
 import logging
@@ -89,7 +89,7 @@ class Bar(object):
 ```
 >Because you create the logger at module level, you then import the module before you load the logging configuration from a file
 
-*configuration
+* configuration
 
 ```python
 import logging
@@ -131,7 +131,7 @@ logger.info('It works!')
 ```python
 
 ###use JSON or YAML logging configuration instead of configure in python code
-*Json File
+* Json File
 ```python
 {
     "version": 1,
@@ -186,7 +186,7 @@ logger.info('It works!')
 }
 ```
 
-*logging.yaml
+* logging.yaml
 ```python
 ---
 
@@ -268,7 +268,7 @@ root:
 
 ...
 
-*configure in python file
+* configure in python file
 ```python
 import os
 import json
@@ -323,13 +323,13 @@ def setup_logging(
     else:
         logging.basicConfig(level=default_level)
 ```
-[Basic Logging Tutorial](https://docs.python.org/2/howto/logging.html#logging-basic-tutorial)
-[Advanced Logging Tutorial](https://docs.python.org/2/howto/logging.html#logging-advanced-tutorial)
-[Logging Cookbook](https://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook)
+* [Basic Logging Tutorial](https://docs.python.org/2/howto/logging.html#logging-basic-tutorial)
+* [Advanced Logging Tutorial](https://docs.python.org/2/howto/logging.html#logging-advanced-tutorial)
+* [Logging Cookbook](https://docs.python.org/2/howto/logging-cookbook.html#logging-cookbook)
 
 ####Note
-*user `UseRotatingFileHandler` instead of `FileHandler` in production environment to stop the log file from growing 
-*Setup a central log server when you have multiple servers, so that we can collect all important (warning and error messages in most cases)
+* user `UseRotatingFileHandler` instead of `FileHandler` in production environment to stop the log file from growing 
+* Setup a central log server when you have multiple servers, so that we can collect all important (warning and error messages in most cases)
 ## Create Django custome logging filter
 
 ```python
