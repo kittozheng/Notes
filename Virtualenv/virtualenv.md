@@ -3,29 +3,29 @@
 keep your project in independent develop environment
 
 ##virtualenv  
-* Install:	
-	`$ sudo apt-get install python-virtualenv`
+1.Install:	
+* `$ sudo apt-get install python-virtualenv`
 
-* Create virtualenv:
-	`$ virtualenv <env_name>`
+2.Create virtualenv:
+*`$ virtualenv <env_name>`
 
-* Run env:
-	`$ source ./bin/active`
+3.Run env:
+* `$ source ./bin/active`
 
 __Note : The most painful approach:(__
 
 ##[virtualwrapper](https://bitbucket.org/dhellmann/virtualenvwrapper)
-* Install:
-	`$ sudo pip install virtualenvwrapper`
-	`$ export WORKON_HOME=$HOME/.virtualenvs`
-	`$ source /usr/local/bin/virtualenvwrapper.sh`
-	`$ source ~/.bashrc`
+1.Install:
+* `$ sudo pip install virtualenvwrapper`
+* `$ export WORKON_HOME=$HOME/.virtualenvs`
+* `$ source /usr/local/bin/virtualenvwrapper.sh`
+* `$ source ~/.bashrc`
 
-* Create virtualenv
-	`$ makevirtualenv <env_name>`
+2.Create virtualenv
+* `$ makevirtualenv <env_name>`
 
-*  Run env
-	`$ workon <env_name>`
+3.Run env
+* `$ workon <env_name>`
 
 __Note : The most frequent used approach:)__
 
