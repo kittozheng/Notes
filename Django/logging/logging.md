@@ -7,8 +7,8 @@ logging
 	
 ####print is not a good idea
 
-1.when debugging, you can't control which logs to print out and which logs not to print 
-2.you may forget to delete these unused prints after debugging
+* when debugging, you can't control which logs to print out and which logs not to print 
+* you may forget to delete these unused prints after debugging
 
 ####so let's start logging
 
