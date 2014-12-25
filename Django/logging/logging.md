@@ -128,7 +128,7 @@ logging.config.dictConfig({
 })
 
 logger.info('It works!')
-```python
+```
 
 ###use JSON or YAML logging configuration instead of configure in python code
 Json File
