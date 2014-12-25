@@ -20,10 +20,12 @@ __Note : The most painful approach:(__
 ##[virtualwrapper](https://bitbucket.org/dhellmann/virtualenvwrapper)
 1.Install:
 
-`$ sudo pip install virtualenvwrapper`
-`$ export WORKON_HOME=$HOME/.virtualenvs`
-`$ source /usr/local/bin/virtualenvwrapper.sh`
-`$ source ~/.bashrc`
+```
+$ sudo pip install virtualenvwrapper
+$ export WORKON_HOME=$HOME/.virtualenvs
+$ source /usr/local/bin/virtualenvwrapper.sh
+$ source ~/.bashrc
+```
 
 2.Create virtualenv
 
