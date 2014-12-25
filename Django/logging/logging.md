@@ -3,7 +3,7 @@ logging
 
 ## Stop using PRINT , and let's use python standard logging module
 
-	[logging](https://docs.python.org/2/library/logging.html) is a standard module, which is well designed for logging.
+[logging](https://docs.python.org/2/library/logging.html) is a standard module, which is well designed for logging.
 	
 ####print is not a good idea
 
