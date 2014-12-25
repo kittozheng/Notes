@@ -55,7 +55,7 @@ logger.addHandler(handler)
 
 ####Do not get logger at the module level unless disable_existing_loggers is False
 
-*code should be like this:
+code should be like this:
 
 ```python
 import logging
@@ -72,7 +72,7 @@ class Bar(object):
         self.logger.info('Hi, bar')
 ```
 
-* but shouldn't be like this:
+but shouldn't be like this:
 
 ```python
 import logging
@@ -131,7 +131,7 @@ logger.info('It works!')
 ```python
 
 ###use JSON or YAML logging configuration instead of configure in python code
-* Json File
+Json File
 ```python
 {
     "version": 1,
@@ -186,7 +186,7 @@ logger.info('It works!')
 }
 ```
 
-* logging.yaml
+logging.yaml
 ```python
 ---
 
@@ -268,7 +268,8 @@ root:
 
 ...
 
-* configure in python file
+configure in python file
+
 ```python
 import os
 import json
