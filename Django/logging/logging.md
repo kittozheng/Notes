@@ -89,7 +89,7 @@ class Bar(object):
 ```
 >Because you create the logger at module level, you then import the module before you load the logging configuration from a file
 
-* configuration
+configuration
 
 ```python
 import logging
@@ -267,6 +267,7 @@ root:
     handlers: [console, info_file_handler, error_file_handler]
 
 ...
+```
 
 configure in python file
 
@@ -331,6 +332,7 @@ def setup_logging(
 ####Note
 * user `UseRotatingFileHandler` instead of `FileHandler` in production environment to stop the log file from growing 
 * Setup a central log server when you have multiple servers, so that we can collect all important (warning and error messages in most cases)
+
 ## Create Django custome logging filter
 
 ```python
