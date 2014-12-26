@@ -56,15 +56,11 @@ SmartGitHg
 
 	`git push origin :<branchName>` (Git v1.5.0) 	
 
-or
-
 	`git push origin --delete <branchName>` (Git v1.7.0)
 
 * rename branch name:
 
 	`git branch -m <oldname> <newname>`
-
-or
 
 	`git branch -m <newname>`(change current branch name)
 
