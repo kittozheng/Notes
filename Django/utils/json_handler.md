@@ -20,7 +20,7 @@ def render_json(data):
 	return HttpResponse(simplejson.dumps(data, ensure_ascii=False))
 ```
 
-##	encoder for  queryset
+####encoder for  queryset
 
 ```python
 ''''
