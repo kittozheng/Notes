@@ -72,3 +72,10 @@ SmartGitHg
 
 	`git revert <commit_version_string>`
 
+* before push
+	
+	`git checkout master`
+	`git checkout pull origin master`
+	`git checkout <current_branch>`
+	`git merge master`
+	`git push origin <current_branch>`
